@@ -1,0 +1,28 @@
+body {
+    background-image: url('cinema2_copie.png');
+    background-attachment: fixed;
+    background-size: cover; /* Pour couvrir toute la zone */
+}
+
+
+.fade-left {
+    animation: fadeLeft 1s ease;
+  }
+  
+  @keyframes fadeLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .fade-in {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+
